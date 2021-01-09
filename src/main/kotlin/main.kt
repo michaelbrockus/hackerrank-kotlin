@@ -8,4 +8,14 @@
 //
 // function main begins all program execution
 //
-fun main() = println("We are ready for HackerRank")
+fun solveMeFirst(a: Int, b: Int): Int {
+    return a + b
+} // end of function solveMeFirst
+
+fun main(args: Array<String>) {
+    val sc = Scanner(System.`in`)
+    val num1 = sc.nextInt()
+    val num2 = sc.nextInt()
+    val sum = solveMeFirst(num1, num2)
+    println(sum)
+} // end of function main
