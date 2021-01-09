@@ -26,34 +26,39 @@ import kotlin.text.*
 //
 // Complete the miniMaxSum function below.
 //
+//
+// Complete the miniMaxSum function below.
+//
 fun miniMaxSum(arr: Array<Int>): Unit {
-    var sum: Int = 0
-    var min: Int = 2
-    var max: Int = 2
-    var num: Int
+    var sum: Long = 0
+    var min: Long = 0
+    var max: Long = 0
+    var num: Long
 
-    for (secret in arr)
+    for (iter in 0 until arr.size)
     {
-        num = secret
-        sum += num
-        if (secret == 0) {
+        num = arr[iter].toLong();
+        sum += num;
+        if (iter == 0)
+        {
             max = num
             min = num
         } // end if
-
-        else {
+        else
+        {
             if (num > max)
             {
                 max = num
             } // end if
             else if (num < min)
             {
-                min = num
+                min = num 
             } // end else if
 
         } // end else
 
     } // end for
+
     println("${sum - max} ${sum - min}")
 } // end of function miniMaxSum
 
