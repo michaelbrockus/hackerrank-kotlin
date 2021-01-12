@@ -41,12 +41,12 @@ fun birthdayCakeCandles(candles: Array<Int>): Int {
     } // end for
 
   for (iter in 0 until candles.size) {
-    if (candles[iter] < current) {
-            continue
-    } // end if 
-    else {
-            ++number
-    } // end else
+      if (candles[iter] < current) {
+        continue
+      } // end if 
+      else {
+          ++number
+      } // end else
 
   } // end for
   return number
