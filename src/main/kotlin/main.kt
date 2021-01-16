@@ -26,9 +26,6 @@ import kotlin.text.*
 //
 // Complete the miniMaxSum function below.
 //
-//
-// Complete the miniMaxSum function below.
-//
 fun miniMaxSum(arr: Array<Int>): Unit {
     var sum: Long = 0
     var min: Long = 0
