@@ -10,6 +10,10 @@ each solution is stored in its own git branch, so the best way to view the
 written solutions for their corresponding problem can be done by switching
 git branches.
 
+This project is using *Gradle build system*, so be sure to review [Gradle Guides](https://gradle.org/guides/#getting-started)
+then see if you can build this project to prove that everything is all setup
+and ready to go. :)
+
 ## Contact the developer
 
 * * *
